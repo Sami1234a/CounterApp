@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.parent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#01f01e3f;
+}
+
+.div{
+    width: 400px;
+    height: 400px;
+    background: #000000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.main h1{
+    font-size: 80px;
+    color: chartreuse;
+}
+.button{
+    display: flex;
+    gap: 20px;
+}
+.button button{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.button .Increement{
+    background: green;
+    color: #fff;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.set_defaultValue input {
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 1px solid green;
+
+}
+
+.set_defaultValue input:focus{
+    outline: green solid 3px;
+}
